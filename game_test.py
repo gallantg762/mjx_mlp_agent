@@ -17,7 +17,7 @@ agents = {
   }
 
 # set round num
-round = 1000
+round = 10000
 
 # for work
 env = mjx.MjxEnv()
@@ -39,6 +39,6 @@ for i in tqdm(range(round)):
     rank_counter[reward] += 1
     total_rank += rank_dict[reward]
 
-    if i>0 and i%(round/10)==0: print_stats(i)
+    if i>0 and i%(round/100)==0: print_stats(i)
 
 print_stats()

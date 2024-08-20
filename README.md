@@ -10,9 +10,9 @@ clone and `python3 setup.py install`.
 
 simple mjx agent using mlp.
 
-Just learned 3-layer neural network with 25,000 games of Houou rank paifu from Tenhou .
+Just learned 3-layer neural network with 30,000 games of Houou rank paifu from Tenhou .
 
-After 5,000 matches against 3 `RuleBasedAgents` (mjx embedded agents), the average ranking is 1.95.
+After 5,000 matches against 3 `RuleBasedAgents` (mjx embedded agents), the average rank is 1.88.
 
 I referred to god site https://note.com/oshizo/n/n61441adc340c.
 
@@ -20,7 +20,7 @@ I referred to god site https://note.com/oshizo/n/n61441adc340c.
 
 I want to know how strong this.
 
-Beat this AI and and let me know.
+Beat this AI and let me know.
 
 ### Files
 
@@ -28,7 +28,7 @@ Beat this AI and and let me know.
   - agent
 - game_test.py
   - game simulater
-- model_tenhou_mlp_25000.pth
+- model_tenhou_mlp_30000.pth
   - weight
 - tools/
   - some tools for make model
