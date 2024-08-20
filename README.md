@@ -21,3 +21,14 @@ I referred to god site https://note.com/oshizo/n/n61441adc340c.
 I want to know how strong this.
 
 Beat this AI and and let me know.
+
+### Files
+
+- mlp_agent.py
+  - agent
+- game_test.py
+  - game simulater
+- model_tenhou_mlp_25000.pth
+  - weight
+- tools/
+  - some tools for make model
