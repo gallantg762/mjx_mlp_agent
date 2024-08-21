@@ -4,7 +4,14 @@ base on [mjx](https://github.com/mjx-project/mjx) specific commit([fcdac0eabf854
 
 clone and `make dist && python3 setup.py install`.
 
-**But build is broken**, fix manually.
+**But build is broken**. I got error, and fix manually.
+
+```
+..../boost-src/libs/container_hash/include/boost/container_hash/hash.hpp:130:33: error: no template named 'unary_function' in namespace 'std'; did you mean '__unary_function'?
+        struct hash_base : std::unary_function<T, std::size_t> {};
+                           ~~~~~^~~~~~~~~~~~~~
+                                __unary_function
+```
 
 ### About
 
