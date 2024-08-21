@@ -1,8 +1,8 @@
 ### Note
 
-I use mjx specific commit https://github.com/mjx-project/mjx/commit/fcdac0eabf854c2a530168eda989479f41681ef9.
+base on [mjx](https://github.com/mjx-project/mjx) specific commit([fcdac0eabf854c2a530168eda989479f41681ef9](https://github.com/mjx-project/mjx/commit/fcdac0eabf854c2a530168eda989479f41681ef9)).
 
-clone and `python3 setup.py install`.
+clone and `make dist && python3 setup.py install`.
 
 **But build is broken**, fix manually.
 
