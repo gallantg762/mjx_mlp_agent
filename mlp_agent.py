@@ -59,7 +59,7 @@ class MLPAgent(Agent):
         super().__init__()
 
         model = _MLP()
-        checkpoint = torch.load('./model_tenhou_mlp_40000.pth')
+        checkpoint = torch.load('./model_tenhou_mlp_50000.pth')
         model.load_state_dict(checkpoint['model_state_dict'])
         self.model = model
 
