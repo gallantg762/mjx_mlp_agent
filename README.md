@@ -49,6 +49,6 @@ I would like to enhance this using DQN which like Suphex's Global Reward Predict
   - [mjx 107*34 2d vec mjx-small-v0](https://github.com/mjx-project/mjx/blob/fcdac0eabf854c2a530168eda989479f41681ef9/include/mjx/internal/observation.cpp#L149) + [mjx 107*34 2d vec han22-v0](https://github.com/mjx-project/mjx/blob/fcdac0eabf854c2a530168eda989479f41681ef9/include/mjx/internal/observation.cpp#L149) (remove dupulicated future)
 
 - out
-  - [mjx 180 1d vec](https://github.com/mjx-project/mjx/blob/fcdac0eabf854c2a530168eda989479f41681ef9/include/mjx/internal/action.h#L45-L61)
+  - [mjx 0~180 uint8_t](https://github.com/mjx-project/mjx/blob/fcdac0eabf854c2a530168eda989479f41681ef9/include/mjx/internal/action.h#L45-L61)
 
 
