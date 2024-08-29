@@ -10,9 +10,9 @@ clone and `make dist && python3 setup.py install`.
 
 simple mjx agent using mlp.
 
-Just learned 3-layer neural network with 50,000 games of Houou rank paifu from Tenhou .
+Just learned 3-layer neural network with 52,500 games of Houou rank paifu from Tenhou .
 
-After 5,000 matches against 3 `RuleBasedAgents` (mjx embedded agents), the average rank is 1.72.
+After 10,000 matches against 3 `RuleBasedAgents` (mjx embedded agents), the average rank is 1.686.
 
 I referred to god site https://note.com/oshizo/n/n61441adc340c.
 
@@ -22,11 +22,9 @@ I referred to god site https://note.com/oshizo/n/n61441adc340c.
 
 |model|accuracy|
 |--|--|
-|this|64.8%|
+|this|65.8%|
 |Suphx|76.7%|
 |akochan|65.1%|
-
-- after run on [mjai](https://github.com/gimite/mjai), it seems to be weaker than [mjai-manue](https://github.com/gimite/mjai-manue).
 
 # Hope
 
