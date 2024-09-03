@@ -1,12 +1,9 @@
 import mjx
 from tqdm import tqdm
-from mjx.agents import RandomAgent, ShantenAgent, TsumogiriAgent, RuleBasedAgent, HumanControlAgent
+from mjx.agents import RuleBasedAgent
 from mlp_agent import MLPAgent
 from collections import Counter
 
-# agent_rand = RandomAgent()
-# agent_tsumogiri = TsumogiriAgent()
-# agent_shanten = ShantenAgent()
 agent_rule = RuleBasedAgent()
 agent_mlp = MLPAgent()
 agents = {

@@ -10,25 +10,11 @@ clone and `make dist && python3 setup.py install`.
 
 simple mjx agent using mlp.
 
-Just learned 3-layer neural network with 52,500 games of Houou rank paifu from Tenhou .
+Just learned 3-layer neural network with Houou rank paifu from Tenhou .
 
-After 10,000 matches against 3 `RuleBasedAgents` (mjx embedded agents), the average rank is 1.686.
+After 5,000 matches against 3 `RuleBasedAgents` (mjx embedded agents), the average rank is 1.63.
 
 I referred to god site https://note.com/oshizo/n/n61441adc340c.
-
-# Strength
-
-- Match rate when discarding tiles in 1000 games of houou players.
-
-|model|accuracy|
-|--|--|
-|this|65.8%|
-|Suphx|76.7%|
-|akochan|65.1%|
-
-# Hope
-
-I would like to enhance this using DQN which like Suphex's Global Reward Prediction.
 
 # Files
 
@@ -36,7 +22,7 @@ I would like to enhance this using DQN which like Suphex's Global Reward Predict
   - agent
 - game_test.py
   - game simulater
-- model_tenhou_mlp_*.pth
+- model.pth
   - weight
 - tools/
   - some tools for make model
