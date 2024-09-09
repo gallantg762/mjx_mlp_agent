@@ -12,7 +12,7 @@ simple mjx agent using mlp.
 
 Just learned 3-layer neural network with Houou rank paifu from Tenhou .
 
-After 10,000 matches against 3 `RuleBasedAgents` (mjx embedded agents), the average rank is 1.566.
+Against 3 `RuleBasedAgents` (mjx embedded agents), the average rank is 1.57.
 
 I referred to god site https://note.com/oshizo/n/n61441adc340c.
 
