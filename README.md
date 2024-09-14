@@ -10,9 +10,7 @@ clone and `make dist && python3 setup.py install`.
 
 simple mjx agent using mlp.
 
-Just learned 3-layer neural network with Houou rank paifu from Tenhou .
-
-Against 3 `RuleBasedAgents` (mjx embedded agents), the average rank is 1.566.
+learned 3-layer neural network with Houou rank paifu from Tenhou .
 
 I referred to god site https://note.com/oshizo/n/n61441adc340c.
 
