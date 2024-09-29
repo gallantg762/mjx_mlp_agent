@@ -4,13 +4,15 @@ base on [mjx](https://github.com/mjx-project/mjx) specific commit([fcdac0eabf854
 
 clone and `make dist && python3 setup.py install`.
 
-**But build is broken**. fix manually.
+But build is broken, fix manually.
 
 # About
 
 simple mjx agent using mlp.
 
-learned 3-layer neural network with Houou rank paifu from Tenhou .
+- 3-layer neural network
+- Supervised learning with [houou rank paifu](https://tenhou.net/ranking.html)
+- Reinforcement Learning (but may be failed :()
 
 I referred to god site https://note.com/oshizo/n/n61441adc340c.
 
@@ -21,7 +23,11 @@ I referred to god site https://note.com/oshizo/n/n61441adc340c.
 - game_test.py
   - game simulater
 - model.pth
-  - weight
+  - weight with reinforce learning
+- model_no_reinforce.pth
+  - weight without reinforce learning
+- rl_gym.py
+  - reinforcement Learning
 - tools/
   - some tools for make model
 

@@ -76,9 +76,6 @@ class MLPAgent(Agent):
         
         with torch.no_grad():
             action_logit = self.model(Tensor(feature.ravel()))
-            # heuristic: reduce call rate
-            for i in range(74, 175):
-                action_logit[i] = action_logit[i] * 0.5
         action_proba = torch.sigmoid(action_logit).numpy()
         
         mask = observation.action_mask()
