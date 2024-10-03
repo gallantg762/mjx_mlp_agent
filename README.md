@@ -16,6 +16,8 @@ simple mjx agent using mlp.
 
 I referred to god site https://note.com/oshizo/n/n61441adc340c.
 
+running on [RiichiLab](https://mjai.app/users/gallantg762)
+
 # Files
 
 - mlp_agent.py
