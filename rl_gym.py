@@ -178,7 +178,7 @@ def save_model(episode):
                 file_path)
 
 # train
-loop_num = 1000
+loop_num = 100_000
 avg_R = 0.0
 
 for i in tqdm(range(loop_num)):

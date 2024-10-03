@@ -12,7 +12,7 @@ simple mjx agent using mlp.
 
 - 3-layer neural network
 - Supervised learning with [houou rank paifu](https://tenhou.net/ranking.html)
-- Reinforcement Learning (but may be failed :()
+- and Reinforcement Learning
 
 I referred to god site https://note.com/oshizo/n/n61441adc340c.
 
