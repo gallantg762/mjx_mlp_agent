@@ -1,15 +1,8 @@
-# Note
-
-base on [mjx](https://github.com/mjx-project/mjx) specific commit([fcdac0eabf854c2a530168eda989479f41681ef9](https://github.com/mjx-project/mjx/commit/fcdac0eabf854c2a530168eda989479f41681ef9)).
-
-clone and `make dist && python3 setup.py install`.
-
-But build is broken, fix manually.
-
 # About
 
 simple mjx agent using mlp.
 
+- install mjx `pip3 install git+https://github.com/mjx-project/mjx`
 - 3-layer neural network
 - Supervised learning with [houou rank paifu](https://tenhou.net/ranking.html)
 - and Reinforcement Learning
