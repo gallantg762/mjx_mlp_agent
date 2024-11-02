@@ -18,9 +18,7 @@ running on [RiichiLab](https://mjai.app/users/gallantg762)
 - game_test.py
   - game simulater
 - model.pth
-  - weight with reinforce learning
-- model_no_reinforce.pth
-  - weight without reinforce learning
+  - weight
 - rl_gym.py
   - reinforcement Learning
 - tools/
