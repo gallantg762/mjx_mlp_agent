@@ -22,9 +22,9 @@ import glob
 files = glob.glob("./mjxproto_dir/*")
 
 # param
-loop_limit = 1000
+loop_limit = 10000
 start_idx = 0
-num_of_division = 10
+num_of_division = 100
 out_dir = './npy'
 
 # work variables

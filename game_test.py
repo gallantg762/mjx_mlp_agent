@@ -1,12 +1,9 @@
 import mjx
 from tqdm import tqdm
-from mjx.agents import RandomAgent, ShantenAgent, TsumogiriAgent, RuleBasedAgent
+from mjx.agents import RuleBasedAgent
 from mlp_agent import MLPAgent
 from collections import Counter
 
-# agent_rand = RandomAgent()
-# agent_tsumogiri = TsumogiriAgent()
-# agent_shanten = ShantenAgent()
 agent_rule = RuleBasedAgent()
 agent_mlp = MLPAgent()
 agents = {
@@ -17,17 +14,17 @@ agents = {
   }
 
 # set round num
-round = 1000
+round_num = 10000
 
 # for work
 env = mjx.MjxEnv()
 total_rank = 0
 rank_counter = Counter()
 rank_dict = {90: 1, 45: 2, 0: 3, -135: 4}
-def print_stats(_round=round): print(f'round = {_round}', f'avg_rank = {total_rank / _round}', rank_counter)
+def print_stats(_round=round_num): print(f'round = {_round}', f'avg_rank = {round(total_rank / _round, 3)}', rank_counter)
 
 # game loop
-for i in tqdm(range(round)):
+for i in tqdm(range(round_num)):
     obs_dict = env.reset()
     
     while not env.done():
@@ -39,6 +36,6 @@ for i in tqdm(range(round)):
     rank_counter[reward] += 1
     total_rank += rank_dict[reward]
 
-    if i>0 and i%(round/10)==0: print_stats(i)
+    if i>0 and i%(round_num/100)==0: print_stats(i)
 
 print_stats()

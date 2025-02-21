@@ -3,7 +3,7 @@ import torch
 from torch import optim, nn, Tensor
 from torchmetrics import Accuracy
 import pytorch_lightning as pl
-import mjx # https://github.com/mjx-project/mjx/commit/fcdac0eabf854c2a530168eda989479f41681ef9 build is broken, fix manually.
+import mjx
 from mjx import Agent, Action
 
 class _MLP(pl.LightningModule):
@@ -59,8 +59,10 @@ class MLPAgent(Agent):
         super().__init__()
 
         model = _MLP()
-        checkpoint = torch.load('./model_tenhou_mlp_25000.pth')
-        model.load_state_dict(checkpoint['model_state_dict'])
+        
+        state = torch.load('./reinforce_model.pth')
+        # model.load_state_dict(state)
+        model.load_state_dict(state['model_state_dict'])
         self.model = model
 
     def act(self, observation) -> Action:
